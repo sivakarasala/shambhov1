@@ -77,10 +77,10 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-    <div>
+    <div  style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
       <h1 style={{color:'skyblue'}}>Aum Namah Shivaya</h1>
-      <h3 style={{color:'limegreen'}}>Hara Hara Mahadeva</h3>
-      <h4 style={{color:'purple'}}>Shambho Shankara</h4>
+      <h3 style={{color:'orange'}}>Hara Hara Mahadeva</h3>
+      <h4 style={{color:'grey'}}>Shambho Shankara</h4>
       {/* <Chord1 width={800} height={600}/> */}
     </div>
     );
