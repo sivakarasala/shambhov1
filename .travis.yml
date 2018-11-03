@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t shambho/shambhov1 -f Dockerfile.dev .
+
+script:
+  - docker run shambho/shambhov1 npm run test -- --coverage
